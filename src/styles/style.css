@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Comic Neue', sans-serif;
+}
+
+.card {
+    background-color: #c46182;
+    width: 18rem;
+    padding: .7rem;
+    margin: 0 auto;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    border-radius: 25px;
+  }
+
+.card img{
+    width: 15rem;
+    margin: 0 auto;
+    display: block;
+}
+.cardContainer{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: #866aaa;
+    color: #ffffff;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
